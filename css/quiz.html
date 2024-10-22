@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz 1 Firman Bayu Alvianto</title>
+
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background: linear-gradient(to bottom, silver, grey);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(to bottom, black, black);
+            color: white;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            color: blue;
+            font-size: 28px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+            background: linear-gradient(to bottom, gold, gold);
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+            background: linear-gradient(to bottom, black, black);
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .column {
+            flex-basis: calc(33.33% - 20px);
+            margin-right: 20px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .column {
+                flex-basis: 100%;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Selamat Datang</h1>
+        <img src="Screenshot_2021-06-23-20-59-36-60.jpg" alt="gambar logo amicia">
+        <h2>AMICIA.Ltd</h2>
+    </header>
+
+    <div class="container">
+        <div class="column">
+            <p>Land</p>
+        </div>
+        <div class="column">
+            <p>Sea</p>
+        </div>
+        <div class="column">
+            <p>Air</p>
+        </div>
+    </div>
+</body>
+
+</html>

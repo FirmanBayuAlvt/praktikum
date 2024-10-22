@@ -1,0 +1,25 @@
+nav ul{
+    list-style: none;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-bottom: 10px solid color(green);
+}
+nav ul li a:hover{
+    background-color: black;
+    color: black;
+    border-bottom: 10px solid b;
+}
+nav ul li{
+    float: left;
+    background-color: gainsboro;
+}
+.active{
+    background-color: green;
+    color: white;
+}
